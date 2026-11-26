@@ -18,8 +18,7 @@ pipeline {
         stage('Git Checkout') {
             steps {
                 git branch: 'master',
-                    credentialsId: "${GIT_CRED_ID}",
-                    url: 'https://github.com/vivekbagde1203/student-management.git'
+                    url: 'https://github.com/vivekbagde1203/studenthub.git'
             }
         }
 
