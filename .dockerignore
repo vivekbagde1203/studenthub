@@ -1,0 +1,5 @@
+.git
+.idea
+*.md
+target/*
+!target/studenthub-1.0.0.jar
