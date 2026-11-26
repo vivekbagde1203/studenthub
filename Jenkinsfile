@@ -5,7 +5,9 @@ pipeline {
         jdk 'java21'
         maven 'maven3'
     }
-
+    triggers {
+        githubPush()
+    }
 
     environment {
         IMAGE_TAG = "v1.0.${BUILD_NUMBER}"
