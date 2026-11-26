@@ -8,7 +8,6 @@ pipeline {
 
 
     environment {
-        GIT_CRED_ID = 'git-credential'
         APP_NAME = 'student-management'
         IMAGE_TAG = "v1.0.${BUILD_NUMBER}"
         CONTAINER_NAME = 'student-management-dev'
