@@ -6,10 +6,6 @@ pipeline {
         maven 'maven3'
     }
 
-    options {
-        skipDefaultCheckout(true)
-        disableConcurrentBuilds()
-    }
 
     environment {
         GIT_CRED_ID = 'git-credential'
