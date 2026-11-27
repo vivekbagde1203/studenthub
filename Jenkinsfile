@@ -12,7 +12,7 @@ pipeline {
     environment {
         IMAGE_TAG = "v1.0.${BUILD_NUMBER}"
         CONTAINER_NAME = 'student-management-dev'
-        DOCKER_NETWORK = 'studenthub-net1'
+        DOCKER_NETWORK = 'studenthub-net'
     }
 
     stages {
