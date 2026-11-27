@@ -108,7 +108,7 @@ pipeline {
         }
 
         always {
-            echo 'Pipelinee execution completed'
+            echo 'Pipeline execution completed'
         }
     }
 }
